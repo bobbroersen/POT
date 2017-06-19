@@ -1,0 +1,45 @@
+.menu-border{
+    width:100%;
+    height:100px;
+    background-color: #ffd306;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+    font-weight: 700;
+    font-size: 21px;
+}
+.menu ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+.menu li{float:left;position:relative;}/* ie needs position:relative here*/
+
+.menu a{
+    text-decoration:none;
+    margin:10px;
+    float:left;
+    color:red;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+
+.menu a:hover{color:#000000;}
+.content{overflow:hidden}/* hide horizontal scrollbar*/
+
+
+li.show-test div.hide-test
+{
+    display:none;
+}

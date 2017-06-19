@@ -1,0 +1,9 @@
+jQuery(function(){
+    $(".show-test").hover(function(){
+      $(this).find(".hide-test").fadeIn();
+    }
+                    ,function(){
+                        $(this).find(".hide-test").fadeOut();
+                    }
+                   );        
+});
